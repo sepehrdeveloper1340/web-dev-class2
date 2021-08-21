@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+
+body{
+    background-color: blue;
+}
+
+h1 {
+    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+color: white;
+font-size: 36px;
+text-decoration:underline yellow;
+text-shadow: 5px 5px 2px red ;
+text-transform: uppercase;
+letter-spacing: 4px;
+word-spacing: 5px;
+border: 8px solid rgb(14, 2, 2);
+padding: 10px;
+margin: 50px;
+border-top-left-radius: 50px;
+border-bottom-right-radius: 10px ;
+
+}

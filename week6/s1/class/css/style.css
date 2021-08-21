@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ @font-face{
+     font-family: "bbadr";
+     src: url(font/BBadr.ttf);
+ }
+
+body{
+    background-color: blue;
+    font-family: badr;
+}
+
+div{
+    width: 600px;
+    height: 700px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    font-size: 15px;
+    margin: 10px;
+}
+
+li:last-child{
+    background-color: royalblue;
+}
+
+li:first-child{
+    background-color: saddlebrown;
+}
+
+li:nth-child(3){
+    background-color: silver;
+}
+
+li:nth-child(4){
+    background-color: snow;
+}
+
+li:nth-child(2){
+    background-color: tomato;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+p:hover::first-line{
+    background-color: yellow;
+}
+
+p::first-letter{
+    background-color: white;
+}
+
+p::after{
+    content: "سلام و علیک";
+    color: yellowgreen;
+}
+
+p::before{
+    content: "خوش امدید";
+}
+
+    

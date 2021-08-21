@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: blue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+header{
+    background-color: red;
+    text-align: center;
+    padding: 40px;
+}
+
+h1{
+    font-size: 35px;
+    background-image: url("nasa-logo-web-rgb.png");
+    
+    color: gold;
+    padding: 20px;
+}
+
+p{
+    background-color: goldenrod;
+    padding: 25px;
+    font-size: 20px;
+    color: rgb(108, 0, 248);
+    margin-top: 20px;
+}
+
+main{
+    background-color:green;
+    padding: 30px;
+    margin-top: 25px;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: underline blue;
+text-shadow: 5px 6px 7px black;
+}
+
+.main-p{
+ background-color: red;
+    padding: 15px;
+    border:15px solid pink;
+    border-radius: 50px;
+}
+
+img {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+ video {
+     background-color: red;
+     padding: 10px;
+     margin: 10px;
+     border: 20px solid red;
+ }

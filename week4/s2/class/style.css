@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: blue;
+    padding: 20px;
+}
+
+img {
+    width: 10%;
+    float: right;
+}
+
+
+li {
+    display: inline;
+    margin: 15px;
+    background-color: red;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 15px;
+    cursor: copy;
+    padding-top: 20px;
+    background-color: rgb(250, 195, 113);
+    border-radius: 10px;
+}
+
+    
+
+a:hover {
+    color: red;
+    background-color: black;
+    font-size: 18px;
+
+}
+
+
+.clearfix {
+    clear: both;
+}
+
+nav {
+    padding-top: 20px;
+;
+}
+
+p {
+    display: none;
+}

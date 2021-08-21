@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+h2{
+    background-color: red;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    text-align: center;
+    text-shadow:+25px +25px 2px #2087fc ;
+    text-decoration: underline;
+
+
+
+}
+
+img{
+    background-color: blue;
+    color: blue;
+width: 360px;
+height: 360px;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+<img src="C:\Users\Public\Pictures\Sample Pictures\Chrysanthemum.jpg" align="center">
+align-items: center;
+}
+
+
+p{
+    background-color: rgb(247, 4, 4);
+    text-shadow:-1px -1px 1px rgb(200, 255, 0) ;
+    text-decoration-color: rgb(201, 3, 3);
+    text-decoration-style: double;
+    color: rgb(9, 25, 245);
+    text-align: center;
+
+}

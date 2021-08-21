@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+}
+
+.sepehr1{
+    float: left;
+    color: red;
+    background-color: seagreen;
+    font-size: 16px;
+    width: 600px;
+    padding: 60px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.sepehr2{
+    float: right;
+    color: seagreen;
+    background-color: red;
+    font-size: 16px;
+    width: 600px;
+    padding: 60px;
+}
+img{
+  width: 200px;
+    
+}
+
+h1{
+    text-align: center;
+    color: seashell;
+    background-color: black;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+    background-color: black ;
+    color: blue;
+}
+ p{
+     font-size:15px;
+ }
+
+

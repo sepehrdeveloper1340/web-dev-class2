@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+body{
+    background-color: yellow;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    border: 20px solid red;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 60px;
+    font-size: 80px;
+    text-decoration:underline blue ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(47, 0, 134);
+}
+
+h3{
+    font-size: 35px;
+    color: brown;
+}
+
+h2{
+    text-align: center;
+    color: blue;
+    border: 5px solid red;
+    margin: 5px;
+    border-radius: 50px;
+}

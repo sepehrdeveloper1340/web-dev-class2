@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+h1{
+    background-color:blue ;
+    color: red;
+    text-align: center;
+    border-radius: 50px;
+    padding: 20px;
+    padding: 20px;
+    margin: 50px;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+
+.gb_f {
+    font-size: 20px ;
+}
+
+.gb_Ca  {
+    background-size: 32px 32px;
+    border: 0;
+    border-radius: 50%;
+    display: block;
+    margin: 0px;
+    position: relative;
+    height: 42px;
+    width: 42px;
+    z-index: 0;
+}
+
+.gb_g .gb_f {
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+a.gb_f, span.gb_f {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+input {
+  
+   color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: white;
+    
+}
+
+
+
+a {
+    padding: 30px ;
+    text-decoration: inline ;
+}
+
+
+
+ul {
+    word-spacing: 10px;
+}
+
+
+
+h1:hover{
+    background-color: black;
+}
+
+.google {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 5px;
+}
+
+button {
+    background-color: white;
+   
+}
+
+.EzVRq {
+    margin-left: 40px;
+}
+
+.pHiOh {
+    float: right;
+    margin-top: 300px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
