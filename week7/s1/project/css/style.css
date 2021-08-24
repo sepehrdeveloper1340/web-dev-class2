@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: green;
+}
+
+.s2{
+    float: right;
+    margin: 10px;
+    background-color: red;
+    animation-name: moveman;
+    animation: moveman 3s linear  infinite;
+}
+
+.s1{
+    float: left;
+    margin: 10px;
+    background-color: blue;
+    animation-name: moveman;
+    animation: moveman 3s linear  infinite;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: moveball 5s linear  infinite;
+  animation-name: moveball;
+  margin-top: 100px;
+
+}
+
+@keyframes moveman {
+    0%{transform: translate(0px, -50px);}
+    25%{transform: translate(0px, 50px);}
+    50%{transform: translate(0px, -50px);}
+    100%{transform: translate(0px, 50px);}
+}
+
+@keyframes moveball {
+    0%{transform: translate(-400px, 0px);}
+    25%{transform: translate(400px, 0px);}
+    50%{transform: translate(-400px, 0px);}
+    100%{transform: translate(400px, 0px);}
+}

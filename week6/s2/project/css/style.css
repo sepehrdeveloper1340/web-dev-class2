@@ -11,8 +11,9 @@ body{
 
 img{
     width: 150px;
-    
+    margin: 1px;
 }
+
 
   li{ 
     background-color: rgb(175, 129, 129);
@@ -88,4 +89,5 @@ p{
 
 ul{
     float: right;
+    background-color: black;
 }
