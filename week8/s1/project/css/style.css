@@ -85,8 +85,12 @@ h1{
 @media only screen and (max-width: 1000px) {
     
     body{
-        font-size: 20px;
+        font-size: 100px;
         background-color: yellow;
+    }
+
+    li{
+        font-size: 30px;
     }
 
 
@@ -99,6 +103,10 @@ h1{
     body{
         font-size: 5px;
         background-color: green;
+    }
+
+    li{
+        font-size: 10px;
     }
 
     .img2{width: 200px;
