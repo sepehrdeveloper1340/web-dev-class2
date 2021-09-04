@@ -23,7 +23,7 @@ header h1:hover{
 ul{
     display: flex;
     flex-wrap: wrap;
-    padding: 40px;
+    padding: 50px;
     justify-content: center;
 }
 
@@ -73,4 +73,26 @@ main p:hover{
     background-color: coral;
     color: cornflowerblue;
     font-size: 40px;
+}
+
+@media only screen and (max-width: 800px) {
+   
+    body{
+        background-color: black;
+    }
+
+    ul{
+        width: 400px;
+        height: 200px;
+    }
+
+    img{
+        width: 400px;
+        height: 200px
+}
+
+footer{
+    display: none;
+}
+
 }
