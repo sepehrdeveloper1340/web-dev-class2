@@ -10,3 +10,19 @@ console.log(helloJapon)
 console.log(helloArabic)
 
 
+console.log("'I'm awesome!"
+)
+console.log("'Iam awesome!"
+)
+console.log("i\'m awesome!")
+
+var A = "sepehr";
+var A_length = A.length;
+console.log(A_length);
+var age = 11;
+var name = "sepehr";
+console.log(typeof(age))
+console.log(typeof(name))
+
+
+
