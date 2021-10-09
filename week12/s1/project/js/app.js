@@ -11,5 +11,9 @@ document.write("  ")
 document.write(i)
 document.write("  ")
 }
+var number = parseInt(prompt('ENTER number'))
+for(var i = number; i <= 1*2*3*4*5 ; i++){
+    console.log(i)
+}
 
 
