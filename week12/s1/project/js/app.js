@@ -7,13 +7,13 @@ console.log(big.toUpperCase())
 var small = "UPPERCUT";
 console.log(small.toLowerCase())
 for (let i = 1; i <= 100; i++){
-document.write("  ")
-document.write(i)
-document.write("  ")
+document.write(i + "<br>")
 }
+var sum = 1;
 var number = parseInt(prompt('ENTER number'))
-for(var i = number; i <= 1*2*3*4*5 ; i++){
-    console.log(i)
+for(var i = 1; i <= number ;  i++){
+    sum = sum * i
 }
 
+console.log(sum)
 
