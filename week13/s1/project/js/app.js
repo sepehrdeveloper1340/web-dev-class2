@@ -1,14 +1,19 @@
-function num () {
-    var number = parseInt(prompt("enter number"))
-    for (let i = 0; i <= number; i++){
-        document.write(i + "<br>")
-        }
-}
+// function num () {
+//     var number = parseInt(prompt("enter number"))
+//     for (let i = 0; i <= number; i++){
+//         document.write(i + "<br>")
+//         }
+// }
 
-num()
-function factor () {
+// num()
+function factor (num) {
     var numi = parseInt(prompt("enter number"))
-    console.log(numi *5*4*3*2*1)
+    var factorial = 1;
+    for(var i = 1; i <= numi ; i++){
+        factorial = factorial * i
+    }
+
+    return factorial
 }
 
-factor()
+console.log(factor(3))
